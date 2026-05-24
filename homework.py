@@ -7,14 +7,24 @@
 # "chirp" if the input is a bird
 
 animal = input("What is your animal?")
-# TO DO
+if animal == "dog":
+    print("woof")
+elif animal == "cat":
+    print("meow")
+elif animal == "pig":
+    print("oink")
+elif animal == "bird":
+    print("chirp")
 
 
 
 
 # Task 2: write a program that asks the user for a number, and checks if it is negative
 number_input = input("Enter your number:")
-# TO DO
+if int(number_input) < 0:
+    print("negative")
+else:
+    print("not negative")
 
 
 
